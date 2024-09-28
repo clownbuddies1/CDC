@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Data</title>
+    <script type="text/javascript">
+        var salary;
+        var name;
+        var hireDate;
+
+        salary = 200.00;
+        name = "Vedant";
+        hireDate = "2023-08-08"; // Example hire date
+
+        document.addEventListener("DOMContentLoaded", function() {
+            document.body.innerHTML += "<p>Salary: $" + salary.toFixed(2) + "</p>";
+            document.body.innerHTML += "<p>Name: " + name + "</p>";
+            document.body.innerHTML += "<p>Hire Date: " + hireDate + "</p>";
+        });
+    </script>
+</head>
+<body>
+</body>
+</html>
